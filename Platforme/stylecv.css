@@ -1,0 +1,136 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.fullpage{
+    height: 100vh;
+    overflow: scroll;
+}
+.fullpage section{
+    height: 100vh;
+    background-attachment: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.fullpage section h1{
+    margin: 0;
+    padding: 0;
+}
+.home{
+}
+.search{
+    background: #157A8C;
+}
+.description{
+    background: #157A8C;
+}
+.mmi{
+    background: #001E3B;
+}
+.contact{
+    background: #157A8C;
+}
+video{
+    width: 100%;
+    z-index: -1;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+.logo{
+    height: 112px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.searchbar {
+    display: flex;
+}
+.searchbar .select{
+    width: 600px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+.searchbar .bouton{
+    background-color: #D3BA17;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.header{
+    display: flex;
+    height: 10px;
+    width: 100%;
+}
+h2{
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 0;
+    width: 83%;
+    font-family: 'Bangers', cursive;
+}
+a{
+    justify-content: flex-end;
+    background-color: white;
+    padding: 16px;
+    border-radius: 20px;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    line-height: 8px;
+}
+a.connexion{
+    margin-top: 20px;
+    margin-right: 16px;
+    font-family: 'Bangers', cursive;
+}
+a.annonce{
+    margin-top: 20px;
+    background-color:  #D3BA17;
+    margin-right: 16px;
+    font-family: 'Bangers', cursive;
+}
+.navbar{
+    display: inline;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    height: 56px;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+}
+.searchbar2{
+    margin-top: 32px;
+}
+.searchbar2 .select{
+    height: 56px;
+    margin-right: 16px;
+}
+.searchbar2 .bouton{
+    height: 56px;
+}
+.description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
