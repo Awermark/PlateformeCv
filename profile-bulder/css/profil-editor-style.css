@@ -1,0 +1,187 @@
+*{
+    box-sizing:border-box;
+    
+}
+body{
+    font-size: 1.2rem;
+    background-color: #247869;
+    margin: 0;
+    padding: 0;
+}
+
+.gros-texte-bleu{
+    color: #001E3B;
+    font-family: 'Bangers',cursive;
+        margin: 0;
+
+}
+.moyen-texte-bleu-clair{
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #157A8C;
+    font-family: 'segoe print';    
+}
+
+.petit-texte-blanc{
+    color: white;
+    margin: auto;
+    font-family: 'segoe print';
+}
+.petit-texte-bleu{
+    color: #001E3B;
+    margin: auto;
+    font-family: 'segoe print';
+}
+
+.texte-noir{
+    color: #111;
+    margin: auto;
+    font-family: 'segoe print';
+}
+
+
+
+
+
+
+
+
+
+
+
+/*specifique*/
+nav{
+    height: 10vh;
+    position: fixed;
+    background-color: #6FAAA4;
+    width: 100%;
+}
+nav img{
+    height: 10vh;
+    
+}
+.seconnecter{
+    
+    text-decoration: none;
+    background-color: white;
+    border-radius: 50px;
+    float: right;
+    padding: 10px;
+    margin-top: 40px;
+        transition: 400ms;
+
+    
+}
+
+.boite-etudiant{
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    background-color: white;
+        
+}
+.container-photo{
+    margin-top: auto;
+        width:40%
+}
+
+.photo-etudiant{
+    clip-path: circle(40%);
+    height: 35vh;
+    position: absolute;
+    left: 10%;
+    top:15%;
+/*
+    margin-left: 20%;
+    padding: -20px;
+*/
+}
+span img{
+    width: 6%;
+    margin-left: 10px;
+    margin-top: auto;
+}
+
+/*----------------------------cv container------------------------*/
+.flexbox{
+    display: flex;
+    margin: 16px;
+    justify-content: center;
+   
+    
+}
+
+.cv-container{
+    background-color: white;
+    max-width: 95%;
+    border-radius: 50px;
+    height: auto;
+}
+.grand-texte{
+    max-width: 50%;
+    padding: 50px;
+    background-color: #81B6B2;
+    border-radius: 50px;
+    margin: 5%
+}
+.contact{
+    background-color: white;
+    width: 20%;
+    box-shadow: -1px -1px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+        font-size:1.8rem;
+    
+}
+/*-----------------------------------------------------------*/
+.blockbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.symbole{
+    float: left;
+    width: 20%;
+    
+}
+.bouton-portfolio-interractif{
+    max-width: 500px;
+text-decoration: none;
+    background-color: #6FAAA4;
+    border-radius: 50px;
+    padding: 30px;
+    margin-top: 40px;
+        transition: 400ms;
+    font-size: 1.5rem;
+}
+.bouton-portfolio-interractif:hover{
+    background-color: #81B6B2;
+}
+.bouton-cv-normal{
+        max-width: 300px;
+
+    text-decoration: none;
+    background-color: #6FAAA4;
+    border-radius: 50px;
+    padding: 30px;
+    margin-top: 40px;
+        transition: 400ms;
+    font-size: 1.5rem;
+}
+.bouton-cv-normal:hover{
+    background-color: #81B6B2;
+}
+/*----------------------------autre étudiant--------------------*/
+
+.container3{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 95%;
+    background-color: white;
+    border-radius: 50px;
+    padding: 16px;
+    padding: 32px;
+    
+}
